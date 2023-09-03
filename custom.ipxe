@@ -2,7 +2,7 @@
 ###
 ### netboot.xyz-custom menu
 ###
-## test
+
 :start
 kernel https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/vmlinuz initrd=initrd.img root=/dev/sr0 rootfstype=auto inst.repo=https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/
 initrd https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/initrd.img
