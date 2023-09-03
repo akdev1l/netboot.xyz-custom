@@ -4,7 +4,7 @@
 ###
 ## test
 :start
-kernel https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/vmlinuz initrd=initrd.img inst.repo=https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/
+kernel https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/vmlinuz initrd=\initrd.img inst.repo=https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/
 initrd https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/initrd.img
 boot
 :custom_exit
