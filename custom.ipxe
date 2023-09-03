@@ -6,6 +6,7 @@
 :start
 kernel https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/vmlinuz
 initrd https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/install.img
+boot
 
 :custom_exit
 exit 0
