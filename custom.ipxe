@@ -4,7 +4,8 @@
 ###
 
 :start
-sanboot https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/boot.iso
+chain memdisk iso raw
+initrd https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/boot.iso
 
 :custom_exit
 exit 0
