@@ -6,7 +6,7 @@
 :start
 kernel https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/vmlinuz
 initrd https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/boot.iso
-boot rd.live.ram=1
+boot https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/pxeboot/vmlinuz rd.live.ram=1
 
 :custom_exit
 exit 0
