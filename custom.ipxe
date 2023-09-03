@@ -4,7 +4,7 @@
 ###
 
 :start
-sanboot https://public.akdev.xyz/ublue-os/UBlue-silverblue-main-38-x86_64.iso
+sanboot https://mirror.xenyth.net/fedora/linux/releases/38/Everything/x86_64/os/images/boot.iso
 
 :custom_exit
 exit 0
