@@ -4,7 +4,7 @@
 ###
 
 :start
-sanboot https://github.com/ublue-os/main/releases/download/v1.9.0/universalblue-38-x86_64-20230816.iso
+sanboot https://public.akdev.xyz/ublue-os/UBlue-silverblue-main-38-x86_64.iso
 
 :custom_exit
 exit 0
