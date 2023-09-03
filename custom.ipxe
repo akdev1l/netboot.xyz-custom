@@ -4,9 +4,7 @@
 ###
 
 :start
-echo Hello world!
-sleep 10
-goto custom_exit
+sanboot https://github.com/ublue-os/main/releases/download/v1.9.0/universalblue-38-x86_64-20230816.iso
 
 :custom_exit
 exit 0
